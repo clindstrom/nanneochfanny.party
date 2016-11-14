@@ -1,0 +1,100 @@
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000000;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+}
+
+body {
+    background-color: rgb(247,247,247);
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    background-color: #FFF;
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+
+
+p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 20px;
+
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 6em;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    color: #F371A2;
+}
+
+#toprow {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.row.wide {
+    max-width: 100em;
+}
+
+.pixelsrow {
+    padding-top: 30px;
+}
+
+/*Navigation*/
+
+#nav {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15em;
+    line-height: 200%; 
+}
+
+#headline {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    line-height: 80%;
+    padding-bottom: 15px;
+    padding-left: 17px;
+}
+
+#headline a{
+    color: black;
+}
+
+#headline a:hover{
+    color: black;
+}
+
+#gallery {
+    margin-top: 40px;
+}
